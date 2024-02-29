@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <app-testcomponent>
+  
+
+  </app-testcomponent>
+  
+
+  <input type="text" [(ngModel)]="someValue">
+<input type="button" value="click"(click)="CallSomeLogic()">
+<h1>{{someValue}}</h1>
+<table>
+  <tr *ngFor="let temp of someValues">
+    <td>
+      {{temp}}
+    </td>
+  </tr>
+</table>
+
+
+<input typr="text">
+<input type="button" value="click">
+</body>
+</html>
